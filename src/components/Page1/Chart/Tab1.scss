@@ -1,0 +1,37 @@
+.dx-tabpanel{
+
+    .dx-tabs{
+        background: transparent !important;
+        box-shadow: none !important;
+        padding: 0 10px;
+        .dx-tabs-wrapper{
+            display: flex;
+        }
+        .dx-tab{
+            background: #13181D;
+            margin:  0 5px;
+            border: none !important;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            font-size: 16px;
+            flex: 0 0 330px;
+            width: unset;
+            &.dx-tab-selected{
+                background: #2C3034;
+            }
+        }
+        
+        div{
+            box-shadow: none !important;
+        }
+        
+    }
+    .dx-multiview-wrapper{
+        border-radius: 12px;
+        background: #2C3034;
+    }
+    .dx-multiview-wrapper{
+        border:none !important;
+        padding: 16px 40px;
+    }
+}
